@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header code */
+header{
+
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+}
+
+nav{
+  
+    background-color: #2874f0;
+    height: 7vh;
+    overflow: hidden;
+    
+}       
+   
+
+nav input {
+    width: 29vw;
+    border-radius: 3px;
+    font-family: Arial,sans-serif;
+    font-weight: 400px;
+    height: 27px;
+    padding: 0px 20px;
+    margin: 10px 16px;
+    font-weight: 500;
+ 
+}
+
+
+.h1p{
+     display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+ 
+}
+.h1 img{
+    height: 4vh;
+    margin: 5px 0px 2px 0px;
+    
+  }
+   
+.h2p{
+    display: flex;
+     position: relative;
+     align-items: center;
+    
+   
+    
+}
+
+.h2 button  {
+    background-color:white;
+    color: #2874f0;
+    font-family: Arial,sans-serif;
+border: 2px solid #2874f0;
+border-radius: 0px;
+cursor: pointer;
+
+
+
+}
+
+    .h2{
+        position: absolute;
+        right: 25px;
+        top: 16px;
+        
+}
+
+
+.h1l button{
+    font-size: 19px;
+    background-color:white;
+    color: #2874f0;
+    font-family: roboto,Arial,sans-serif;
+border: 2px solid #2874f0;
+border-radius: 3px;
+cursor: pointer;
+margin: 0px 0px 0px 150px;
+padding: 5px 50px;
+
+}
+
+/* footer code */
+
+
+
+:root {
+    --main-color: #878787;
+    
+}
+
+footer{
+    overflow-y: hidden;
+    position: sticky;
+    bottom: opx;
+    color: var(--main-color);
+  
+    height: 54vh;
+
+    font-size: 12px;
+    line-height: 1.7;
+    text-align: left;
+}
+
+   
+    
+.footer1{
+   
+    background-color: yellow;
+    height: 40vh;
+    
+    
+   
+    
+    
+}
+/* 
+h1  { background-color: white;
+    font-size: 16px;
+    color:  #878787  ;
+    font-family: Roboto,Arial,sans-serif;
+    text-align: left;
+margin: 0px;
+
+}
+.f11
+{
+    height: 40vh;
+}
+h2  { background-color: white;
+    font-size: 16px;
+    color:  #878787  ;
+    font-family: Roboto,Arial,sans-serif; */
+
+
+/* } */
+.f1{
+    background-color: #0c0f44;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    overflow: hidden;
+}
+.f2
+{
+    color: #878787;
+    font-size: 12px;
+font-weight: 400;
+margin-bottom: 9px;
+font-family: Roboto,Arial,sans-serif;
+overflow: hidden;
+}
+.f21
+{ text-decoration: none;
+    
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+}
+.f21:hover{
+    text-decoration: underline;
+}
+
+
+.f21p
+{ text-decoration: none;
+    
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+}
+.f1p{
+    background-color: #0c0f44;
+    height: 59px;
+    display: flex;
+    overflow: hidden;
+   
+    justify-content: space-around;
+   
+}
+   .f1p2
+   { color: #fff;
+    text-decoration: none ;
+    font-weight: 400;
+     font-size: 16px;
+     
+     text-decoration: none;
+    }
+  
+  /* main codes */
+   
+  
+  
+  
+  main{
+       
+       background-color:#f1f3f6;
+       min-height: calc(100vh-7vh-92vh);
+   }
+
+.slider{
+    min-height: 400px;
+    max-width:  1520px; 
+background-color: white;
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+}
+
+.img1{
+    background-size: contain;
+    height: 400px;
+    width: 500px;
+    transform: translateX(-113vh);
+    animation: slide1 6s  0s  forwards ;
+    
+  
+   
+   
+}
+
+
+.img2{
+    background-size: contain;
+    height: 400px;
+    width: 500px;
+    transform: translateX(-280vh);
+    animation: slide2 6s 4s  forwards ;
+   
+   
+   
+}
+
+.img3{
+    background-size: contain;
+    height: 400px;
+    width: 500px;
+    transform: translateX(-316vh);
+    animation: slide3 6s 8s  forwards ;
+   
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+   .card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    
+}
+
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #f1f3f6;
+
+}
+.zoom {
+    padding: 21px 21px 77px;
+   
+    transition: transform .2s; /* Animation */
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  
+ .zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  cursor: pointer;
+}

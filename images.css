@@ -1,0 +1,116 @@
+@keyframes slide1 {
+    0%{
+        transform: translateX(-113vh);
+    
+    }
+    25%{
+        transform: translateX(70vh);
+    }
+    50%{
+        transform: translateX(70vh);
+    }
+        100%{
+            transform: translateX(320vh);
+        }
+    
+    
+}
+
+
+
+@keyframes slide2 {
+    0%{
+        transform: translateX(-280vh);
+    
+    }
+    25%{
+        transform: translateX(0vh);
+    }
+    50%{
+        transform: translateX(0vh);
+    }
+        100%{
+            transform: translateX(320vh);
+        }
+    
+    
+}
+
+@keyframes slide3 {
+    0%{
+        transform: translateX(-316vh);
+    
+    }
+    25%{
+        transform: translateX(-70vh);
+    }
+    50%{
+        transform: translateX(-70vh);
+    }
+        100%{
+            transform: translateX(320vh);
+        }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    height: 400px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+  
+ }
+     
+ .flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer; 
+}
+
+.my-1{
+    margin: 5px 0;
+}
+
+.my-2{
+    margin: 26px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.cardp
+{
+    margin: 0px 10px 10px 10px;
+}
